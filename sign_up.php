@@ -10,11 +10,13 @@
 if (isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['user_name'])
 && isset($_POST['password']) && isset($POST['repeat_password'])) {
 
+
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $user_name = $_POST['user_name'];
     $password = $_POST['password'];
     $repeat_password = $_POST['repeat_password'];
+
 
     if(!empty($first_name) && !empty($last_name) && !empty($user_name)
         && !empty($password) && !empty($repeat_password)) {
